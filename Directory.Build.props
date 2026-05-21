@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+    <RestoreDisableFallbackFolders>true</RestoreDisableFallbackFolders>
+    <RestoreDisableImplicitNuGetFallbackFolder>true</RestoreDisableImplicitNuGetFallbackFolder>
+    <RestoreFallbackFolders></RestoreFallbackFolders>
+    <NoWarn>$(NoWarn);CS1591;EnableGenerateDocumentationFile</NoWarn>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Pinned vulnerable transitive package versions -->
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.76.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.3.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.1" />
+  </ItemGroup>
+</Project>

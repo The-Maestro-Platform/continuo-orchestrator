@@ -1,0 +1,25 @@
+# Default: text files use LF
+* text=auto eol=lf
+
+# C# / .NET
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=crlf
+*.props text eol=lf
+*.targets text eol=lf
+*.config text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binaries
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary

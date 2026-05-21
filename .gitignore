@@ -1,0 +1,42 @@
+# Build outputs
+bin/
+obj/
+out/
+binverify/
+*.tsbuildinfo
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# User-specific
+*.user
+*.suo
+*.userprefs
+
+# Env / secrets
+.env
+.env.local
+appsettings.Development.local.json
+appsettings.Local.json
+
+# NuGet local package output
+*.nupkg
+*.snupkg
+artifacts/
+
+# Misc
+*.swp
+*.tmp

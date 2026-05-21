@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Orchestrator": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT__ISSUER": "example.local",
+        "JWT__AUDIENCE": "continuo.clients",
+        "JWT__SECRET": "dev-secret-change-me-0123456789-very-long-and-random-987654321",
+        "CONTINUO_ENV_FILE": "../../.env",
+        "ERROR_LOG__MODE": "db",
+        "REQUEST_LOG__MODE": "db",
+        "ConnectionStrings__DefaultConnection": "Server=94.73.170.39;Database=continuo;User Id=continuo;Password=T9glh-wlA8MufkGm;TrustServerCertificate=True;"
+      },
+      "applicationUrl": "https://localhost:3000;http://localhost:4000"
+    }
+  }
+}
