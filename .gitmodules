@@ -1,12 +1,12 @@
 [submodule "deps/continuo-shared"]
 	path = deps/continuo-shared
-	url = https://github.com/WhiteToblack/continuo-shared.git
+	url = https://github.com/The-Maestro-Platform/continuo-shared.git
 [submodule "deps/continuo-messaging"]
 	path = deps/continuo-messaging
-	url = https://github.com/WhiteToblack/continuo-messaging.git
+	url = https://github.com/The-Maestro-Platform/continuo-messaging.git
 [submodule "deps/continuo-configuration"]
 	path = deps/continuo-configuration
-	url = https://github.com/WhiteToblack/continuo-configuration.git
+	url = https://github.com/The-Maestro-Platform/continuo-configuration.git
 [submodule "deps/continuo-observability"]
 	path = deps/continuo-observability
-	url = https://github.com/WhiteToblack/continuo-observability.git
+	url = https://github.com/The-Maestro-Platform/continuo-observability.git
