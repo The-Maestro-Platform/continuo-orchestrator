@@ -20,15 +20,17 @@
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.0" />
     <PackageReference Include="StackExchange.Redis" Version="2.7.33" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
-    <ProjectReference Include="..\..\deps\continuo-shared\src\Continuo.Shared\Continuo.Shared.csproj" />
-    <ProjectReference Include="..\..\deps\continuo-messaging\src\Continuo.Messaging\Continuo.Messaging.csproj" />
-    <ProjectReference Include="..\..\deps\continuo-configuration\src\Continuo.Configuration\Continuo.Configuration.csproj" />
-    <ProjectReference Include="..\..\deps\continuo-observability\src\Continuo.Observability\Continuo.Observability.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\endpoint_proxy.json"
           Link="endpoint_proxy.json"
           CopyToOutputDirectory="PreserveNewest"
           CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Continuo.Shared" Version="0.1.0" />
+    <PackageReference Include="Continuo.Messaging" Version="0.1.0" />
+    <PackageReference Include="Continuo.Configuration" Version="0.1.0" />
+    <PackageReference Include="Continuo.Observability" Version="0.1.0" />
   </ItemGroup>
 </Project>
